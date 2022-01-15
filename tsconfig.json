@@ -1,0 +1,36 @@
+{
+    "include": [
+        "**/*.d.ts",
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "strict": true,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "paths": {
+            //            "@contentful": ["lib/contentful"],
+            "@components": [
+                "src/components"
+            ],
+            "@layouts": [
+                "src/layouts"
+            ],
+            "@styles": [
+                "src/styles"
+            ],
+            "@types": [
+                "src/types"
+            ],
+            "@utils": [
+                "src/utils"
+            ]
+        },
+        "jsx": "react-jsx"
+    }
+}
